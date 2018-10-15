@@ -46,11 +46,18 @@ img{
 }
 
 /* header */
-header {
+/*header {
     position: absolute;
     z-index: 9;
     width: 100%;
     background: rgba(0, 0, 0, 0.2);
+}*/
+
+header {
+        position: fixed;
+    z-index: 9;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.63);
 }
 .buttons p i {
     color: #fff;
